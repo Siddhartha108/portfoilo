@@ -1,4 +1,3 @@
-import React from 'react'
 import phone from "../assets/phone.png"
 import env from "../assets/envelope-add.png"
 import map from "../assets/map-marker.png"
@@ -45,7 +44,7 @@ function Contacts() {
         <div className="mx-20 space-y-8 sm:order-1">
 
           <div className="flex">
-            <img src={phone} alt="" width={40}/>
+            <img src={phone} alt="" className='w-6 h-7'/>
 
             <div className="ml-4">
               <h3 className="text-xl font-semibold text-[#6E57E0]">Call me</h3>
@@ -54,7 +53,7 @@ function Contacts() {
           </div>
 
           <div className="flex">
-            <img src={env} alt="" width={45}/>
+            <img src={env} alt="" className='w-6 h-7'/>
 
             <div className="ml-4">
               <h3 className="text-xl font-semibold text-[#6E57E0]">Gmail</h3>
@@ -63,7 +62,7 @@ function Contacts() {
           </div>
 
           <div className="flex">
-            <img src={map} alt="" width={45}/>
+            <img src={map} alt="" className='w-6 h-7'/>
 
             <div className="ml-4">
               <h3 className="text-xl font-semibold text-[#6E57E0]">Location</h3>

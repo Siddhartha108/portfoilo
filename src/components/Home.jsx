@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -7,7 +6,7 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoSend } from "react-icons/io5";
-import { ReactTyped, Typed } from "react-typed";
+import { ReactTyped,} from "react-typed";
 import me1 from "../assets/me1.jpg"
 import { Link } from 'react-scroll';
 
@@ -22,7 +21,7 @@ function Home() {
           <span className="text-xl">Welcome In My Feed</span>
 
           <div className="flex space-x-1 text-2xl md:text-4xl">
-            <h1>Hello, I'm a </h1>
+            <h1>Hello, I&apos;m a </h1>
             <ReactTyped
               className="text-red-700 font-bold"
               strings={["Web-Developer", "Programmer", "Freelancer"]}

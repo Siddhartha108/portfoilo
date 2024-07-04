@@ -1,4 +1,3 @@
-import React from 'react'
 import Accoridon from './Accoridon'
 import img1 from "../assets/brackets-curly.png"
 import img2 from "../assets/server-network.png"
