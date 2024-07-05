@@ -1,4 +1,4 @@
-import { FaDownload } from "react-icons/fa";
+// import { FaDownload } from "react-icons/fa";
 import resume from "../assets/SiddharthaResume.pdf";
 function About() {
 

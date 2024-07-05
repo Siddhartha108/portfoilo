@@ -21,9 +21,9 @@ function Home() {
           <span className="text-xl">Welcome In My Feed</span>
 
           <div className="flex space-x-1 text-2xl md:text-4xl">
-            <h1>Hello, I&apos;m a </h1>
+            <h1 className="whitespace-nowrap">Hello, I&apos;m a</h1>
             <ReactTyped
-              className="text-red-700 font-bold"
+              className="text-red-700 font-bold whitespace-nowrap"
               strings={["Web-Developer", "Programmer", "Freelancer"]}
               typeSpeed={50}
               backSpeed={50}
