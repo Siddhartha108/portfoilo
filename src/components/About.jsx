@@ -83,19 +83,24 @@ function About() {
 
       <div className="flex justify-center items-end mt-10">
         <div className="mr-8">
-          <a href="./src/assets/Siddharth Resume.pdf" download>
+          <a href="./src/assets/Siddhartha Resume.pdf" download>
             <button
               className="bg-[#6E57E0] text-white rounded-md px-4 py-4 flex items-center justify-center hover:bg-[#5A43CB]"
               to="Contacts"
             >
-              Download CV{" "}
+              Download CV
               <span className="ml-2">
                 <FaDownload />
               </span>
             </button>
           </a>
+
         </div>
+
+
       </div>
+
+
       <br />
       <br />
       <hr />
