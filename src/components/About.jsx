@@ -1,6 +1,16 @@
 import { FaDownload } from "react-icons/fa";
-
+import resume from "../assets/SiddharthaResume.pdf";
 function About() {
+
+  const onButtonClick = () => {
+    const pdfUrl = resume;
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "document.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   const education = [
     { title: "Ducat (The IT Training)", period: "Current" },
     {
@@ -96,8 +106,8 @@ function About() {
 
       <div className="flex justify-center items-end mt-10">
         <div className="mr-8 bg-[#6E57E0] text-white rounded-md px-4 py-4 flex items-center justify-center hover:bg-[#5A43CB]">
-          <a
-            href="./src/assets/SiddharthaResume.pdf"
+          {/* <a
+            href={resume}
             download="Siddhartha_Resume.pdf"
           >
             Download CV
@@ -105,7 +115,10 @@ function About() {
 
           <span className="ml-2">
             <FaDownload />
-          </span>
+          </span> */}
+          <button onClick={onButtonClick}>
+                    Download PDF
+                </button>
         </div>
       </div>
 
