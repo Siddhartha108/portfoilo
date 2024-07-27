@@ -117,9 +117,6 @@ function About() {
           <span className="ml-2">
             <FaDownload />
           </span>
-          {/* <button onClick={onButtonClick}>
-                    Download PDF
-                </button> */}
         </div>
       </div>
 
